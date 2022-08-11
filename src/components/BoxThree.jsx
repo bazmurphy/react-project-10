@@ -8,7 +8,9 @@ export default function BoxThree(props) {
         border: props.on ? "0.25rem solid white" : "0.25rem solid black",
     }
     
+    const monkey = props.on ? "🙈" : "🙉";
+
     return (
-        <div style={styles} className="box" onClick={ () => props.toggle(props.id) }></div>
+        <div style={styles} className="box" onClick={ () => props.toggle(props.id) }>{props.id}{monkey}</div>
     )
 }

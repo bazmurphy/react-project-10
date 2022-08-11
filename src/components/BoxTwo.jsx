@@ -7,9 +7,11 @@ export default function BoxTwo(props) {
         color: props.on ? "white" : "black",
         border: props.on ? "0.25rem solid white" : "0.25rem solid black",
     }
+
+    const monkey = props.on ? "🙈" : "🙉";
     
     return (
-        <div style={styles} className="box" onClick={ () => props.toggle(props.id) }></div>
+        <div style={styles} className="box" onClick={ () => props.toggle(props.id) }>{props.id}{monkey}</div>
         // [2]
         // ^ but we can hand it our OWN FUNCTION which runs props.toggle
 

@@ -19,8 +19,10 @@ export default function Box(props) {
       border: state ? "0.25rem solid white" : "0.25rem solid black"
   }
 
+  const monkey = state ? "🙈" : "🙉";
+
   return (
-    <div style={styles} onClick={toggle} className="box"></div>
+    <div style={styles} onClick={toggle} className="box">{props.id}{monkey}</div>
   )
 } 
 

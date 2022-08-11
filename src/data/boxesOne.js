@@ -1,15 +1,15 @@
 export default [
     {
         id: 1,
-        on: true
-    },   
-    {
-        id: 2,
         on: false
     },   
     {
-        id: 3,
+        id: 2,
         on: true
+    },   
+    {
+        id: 3,
+        on: false
     },   
     {
         id: 4,
@@ -21,6 +21,6 @@ export default [
     },   
     {
         id: 6,
-        on: false
+        on: true
     },   
 ]

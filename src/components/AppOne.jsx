@@ -8,7 +8,7 @@ export default function AppOne() {
   const [boxesArray, setBoxesArray] = React.useState(boxesOne)
   // console.log(boxesArray)
 
-  const boxesElements = boxesArray.map(element => <BoxOne key={element.id} on={element.on}/>)
+  const boxesElements = boxesArray.map(element => <BoxOne key={element.id} id={element.id} on={element.on}/>)
   // console.log(boxesElements)
 
   return (
