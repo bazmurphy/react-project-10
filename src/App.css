@@ -6,7 +6,11 @@
     padding: 1rem;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(200, 200, 200);
+}
+
+.App > img {
+    border-radius: 5px;
 }
 
 .boxes-container {
